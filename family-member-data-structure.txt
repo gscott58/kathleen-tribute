@@ -1,0 +1,98 @@
+
+//------------------------------//
+//-- Scott Family Member Data --//
+//------------------------------//
+
+header
+    main-title
+
+root
+    sidebar1-title
+    sidebar1-content
+    root-title-top
+    root-image
+    sidebar2-title
+    sidebar2-content
+    root-title-bottom
+write
+root
+    footer-1-content
+    
+root
+    footer-2-content
+
+photo-carousel
+    nine-photos
+
+call-to-Action
+    call-to-action-content
+
+What-should-I-write
+    what-should-I-write-content
+
+Helpful-links
+    Helpful-link-links
+    
+Generation-children-follows
+    1
+    2
+    3
+    4
+    .
+    .
+    .
+    10
+
+Generation
+    0
+    1
+    2
+    3
+    etc.
+
+Name
+    First
+    Middle
+    Last
+
+Gender
+    male
+    female
+
+BirthDate
+    month
+    day
+    year
+
+Age
+    javascript computation
+
+BirthPosition
+    1
+    2
+    3
+    etc.
+
+DeathDate
+    month
+    day
+    year
+
+Photo
+    Portrait
+    
+LifeStory
+    Blob
+
+
+
+    
+
+
+
+
+
+
+
+
+

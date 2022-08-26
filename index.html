@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kathleen Scott Tribute</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Life and Times of Kathleen Scott">
+    <meta name="keywords" content="Kathleen, Scott, Big Kat, Chicago, Illinois">
+
+    <!-- reference to jQuery Library and jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- reference to jQuery Library and jQuery UI-->
+
+    <!-- reference to Boot Strap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- reference to Boot Strap -->
+
+    <!-- reference to the Sticky plugin. -->
+    <script src="jquery-plugins/jquery.sticky.js"></script>
+    <!-- reference to the Sticky plugin. -->
+
+    <!-- reference to the jQuery Cycle 2 plugin. -->
+    <script src="jquery-plugins/jquery.cycle2.js"></script>
+    <script src="jquery-plugins/jquery-cycle2-flip.js"></script>
+    <script src="jquery-plugins/jquery-cycle2-shuffle.js"></script>
+    <!-- reference to the jQuery Cycle 2 plugin. -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-overrides.css">
+    <link rel="stylesheet" href="css/image_swap.css">
+    <link rel="stylesheet" href="css/colorscheme/white-on-red.css" id="color-switcher">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sansita&display=swap" rel="stylesheet">        
+</head>
+
+<body>
+<div class="container-fluid" id="page">
+    <!--------------------->
+    <div id="color-schemes">
+    <!--------------------->
+        <ul id="sticker">
+            <li class="white-on-blue"    data-path="css/colorscheme/white-on-blue.css">Text</li>
+            <li class="white-on-purple"  data-path="css/colorscheme/white-on-purple.css">Text</li>           
+            <li class="black-on-pink"    data-path="css/colorscheme/black-on-pink.css">Text</li>
+            <li class="white-on-red"     data-path="css/colorscheme/white-on-red.css">Text</li> 
+        </ul>
+    </div>
+
+<div id="accordion">
+    <h3 class="jquery-accordion-panel-tab">Life Story</h3>  <!-- Accordion Obituary Panel -->
+    <div id="obituary-panel"> <!-- Obituary Panel --> 
+    <!---------------------------------------> 
+    <div class="row5 col-12">
+    <!---------------------------------------> 
+    <div class="col-4 jquery-accordion-panel-tab-title">
+        <div>
+            <span><strong><i>Kathleen's Life Story</i></strong></span>
+        </div>
+    </div>
+    </div>
+        <!---------------------------------------->
+        <div class="row2">
+        <!---------------------------------------->
+            <div class="col-4 sidebar">
+
+                <div class="sidebar-title">
+                    <h2><strong><i>Kathleen</i></strong></h2>
+                </div>
+
+                <div class="sidebar-content">
+
+                    <p>Kathleen's life story began when she was born <strong> December 13, 1960</strong>,  in Chicago, Illinois, to <strong>Gertrude Scott</strong> &nbsp;and <strong>Marshall Thompson</strong>.
+                    </p>
+
+                    <p>
+                        <strong>Growing</strong> up in Chicago, Illinois, Kathleen and her siblings (<i>Catherine</i> , <i>Peggy Ann</i> , <i>Charles C. Scott</i> , <i>Mary Jane</i>, <i>Larry James</i> , <i>Gregory</i> 
+                        , <i>Anthony</i> , <i>Laura Ann</i> , and <i>Carolyn</i>), were mostly raised by oldest sister <strong>Catherine</strong>, with help from sister Peggy Ann, while mother Gertrude worked to generate income.
+                    </p>
+                    <p>
+                        <strong>Kathleen</strong> met the love of her life, <strong>Bernard Wynn</strong>, who lived in a nearby neighborhood not far from where the Scott family lived. 
+                    </p>
+
+                    <p>
+                    On <strong>August 3, 1975</strong>, Kathleen and <strong>Bernard</strong> would welcome their <span class="text-on-background-3">first</span> of two children together, a baby girl,  <span class="georgia-state-color">Shalena Scott</span>. 
+                    </p>
+                    <p>
+                        A few years later, on <strong>April 28, 1978</strong>, Kathleen and <strong>Bernard</strong> would welcome their <span class="text-on-background-3">second</span> child into the world, a baby girl,  <span class="georgia-state-color">Angel Catherine Scott</span>. 
+                    </p>
+                    <p>
+                        Kathleen's family now totaled two children, and she would go on to become a grandmother and mother-in-law, as well.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-4 main-content">
+                <div class="figcaption main-content-title">
+                    <span id="Kathleen-birth-date" class="birthdate birth-death-date-color"></span>              
+                    <span id="Kathleen-death-date" class="deathdate birth-death-date-color"></span>
+                    <div>            
+                    <h2><strong>"<i>Big Kat</i>"</strong></h2>
+                    </div>
+                </div>
+
+                <div class="cycle-slideshow"
+                    data-cycle-fx="flip-Horz"
+                    data-cycle-timeout="5000"
+                    data-cycle-speed="5000"
+                    data-cycle-caption="#adv-custom-caption"
+                    data-cycle-caption-template="{{cycleTitle}}">
+                    <img class="mother" src="img/kathleen-photo-1.jpg" alt="Kathleen Photo-1" data-cycle-title="<i>Gone, But Not Forgotten . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-2.jpg" alt="Kathleen Photo-2" data-cycle-title="<i>Always, In Our Hearts . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-3.jpg" alt="Kathleen Photo-3" data-cycle-title="<i>Dancing, With The Stars . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-4.jpg" alt="Kathleen Photo-4" data-cycle-title="<i>Contagious Smile . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-7.jpg" alt="Kathleen Photo-7" data-cycle-title="<i>Doing A Photo Shoot . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-5.jpg" alt="Kathleen Photo-5" data-cycle-title="<i>Taking A Moment . . .</i>">
+                    <img class="mother" src="img/kathleen-photo-6.jpg" alt="Kathleen Photo-6" data-cycle-title="<i>Just Cooling Out . . .</i>">
+                    <!-- empty element for caption -->
+                </div>
+                <div id="adv-custom-caption" class="text-on-background-3" ><i>Gone, but not forgotten . . .</i></div>
+            </div>   
+
+            <div class="col-4 sidebar">
+
+                <div class="sidebar-title">
+                    <h2><strong><i>Scott</i></strong></h2>
+                </div>
+
+                <div class="sidebar-content">
+                    <p>
+                        <strong>Kathleen</strong> earned her High School Diploma and took classes in Accounting and Business Administration.
+                    </p>
+                    <p>
+                        She worked as a <strong>TSA Officer</strong> for 19 years prior to her passing. 
+                        &nbsp;She enjoyed her job and received many accolades from co-workers and passengers. &nbsp;Her gentle nature prompted her to be of service to many and she was loved by all.
+                    </p>
+
+                    <p>
+                        Although <strong>Kathleen</strong> was not a person of big physical stature, she was big on everything!  &nbsp;Big on enjoying life and having fun, big on meeting and talking to people, and big on helping others. &nbsp;<strong>Big Kat</strong>" is what they called her.
+                    </p>
+
+                    <p>
+                        So <strong>jovial</strong> and friendly, she could sit down and talk to anyone about anything.  &nbsp;She and her daughters, <span class="georgia-state-color">Shalena</span> and <span class="georgia-state-color">Angel</span> were inseparable!  &nbsp;They were like three peas in a pod.  &nbsp;Always together!  &nbsp;Her children, family, and multitude of friends loved her so much!
+                        &nbsp;Why? &nbsp;Because <strong>Big Kat</strong>" was soooo much fun to be around!   
+                    </p>
+                </div>
+            </div>   
+        </div>
+
+        <!---------------------------------------->
+        <div class="row2 col-12">
+        <!---------------------------------------->
+            <div class="col-4 tributes">
+                <span>
+                    <span class="text-no-background"><strong><i>Called to Glory</i></strong></span>
+                </span>
+            </div>
+        </div>
+
+        <!-------------------------------------------> 
+        <div class="row3 col-12" id="called-to-glory">
+        <!-------------------------------------------> 
+            <div>
+                <div>
+                    <p><strong><i>Kathleen</i></strong> accepted <strong><i>Christ</i></strong> at an early age. &nbsp;Her mother often took the family to Bible class and Sunday service. &nbsp;She was a member of <strong><i>Christ Deliverance Church</i></strong>.
+                    &nbsp;Her faith in the <strong><i>Lord</i></strong> was persistent and she often called upon <strong><i>Him</i></strong>.
+                    </p>
+
+                    <p>
+                        &nbsp;<strong><i>Kathleen</i></strong> gained her wings on <span class="georgia-state-color"><strong><i>August 11, 2022</i></strong></span>. &nbsp;At the time of her passing, she was <span class="georgia-state-color"><span id="Kathleen-death-age"></span></span> years old. &nbsp;She was preceded in death by her mother, Gertrude Scott, her dad, Marshall Thompson, and her brothers Charles C. Scott and Larry James Scott.
+                    </p>
+
+                    <p><strong><i>Kathleen</i></strong> leaves behind her two daughters Shalena Scott-Holmes (Courtney Holmes) and Angel Scott-Thomas (Jimmy Thomas).  &nbsp;Her special friend, <span class="georgia-state-color"><strong><i>Mikhail Gololobov</i></strong></span>, two brothers Gregory Scott (Christine Scott), Anthony Scott (Pearl Scott), five sisters Catherine Scott, Peggy Ann Lyons, Mary Jane Scott-Lawrence, Laura Ann Scott,
+                         Carolyn Marie Scott, three grandsons Chrishaun Scott, Aspen Scott, Jax Thomas
+                          and one great-granddaughter Chrissy Sade Scott, and old childhood friend, <strong><i>Shawn Lundy</i></strong> and BBF <strong><i>Versa Lee Frazier</i></strong>.
+                    </p>
+
+                    <p>
+                        <strong><i>Additionally</i></strong>, she leaves a host of nieces, nephews, cousins, special daughters and sons and friends.
+                    </p>
+                </div>
+            </div>
+        </div>    
+    </div> <!-- End obituary Panel-->
+
+    <h3 class="jquery-accordion-panel-tab">Order of Service</h3>  <!-- Accordion Services Panel -->
+    <div id="services-panel">
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 jquery-accordion-panel-tab-title">
+                <div>
+                    <span><strong><i>Kathleen's Order of Service</i></strong></span>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------->
+        <div class="row1">
+        <!---------------------------------------->
+            <div class="col-12">
+                <ul>
+                    <li>Organ Prelude . . . . . . . . . . . . . . . </li>
+                    <li>Processional . . . . . . . . . . . . . . . </li>
+                    <li>Scripture . . . . . . . . . . . . . . . . . . Sister Peggy Ann Lyons</li>
+                    <li>Prayer . . . . . . . . . . . . . . . . . . . .  Anthony Scott</li>
+                    <li>Solo . . . . . . . . . . . . . . . . . . . .  . . Benita Rudolph</li>
+                    <li>Remarks . . . . . . . . . . . . . . . . . . . (2 Minutes Please)</li>
+                    <li>Solo . . . . . . . . . . . . . . . . . . . . . . .Benita Rudolph</li>
+                    <li>Obituary . . . . . . . . . . . . . . . . . . .Laura Ann Scott</li>
+                    <li>Euglogy . . . . . . . . . . . . . . . . . . . Pastor Anthony Scott</li>
+                    <li>Benediction . . . . . . . . . . . . . . . </li>
+                    <li>Recessional . . . . . . . . . . . . . . . </li>
+                </ul>
+            </div>
+        </div>   
+        <!---------------------------------------->
+          <div class="row2">
+        <!---------------------------------------->
+            <div class="col-12">
+                <p>Repast - Following Interment</p>
+
+                <p><strong>Josephine's</strong></p>
+
+                <p>436 E. 79th Street, Chicago, Illinois 60610</p>
+            </div>
+        </div>   
+    
+    </div>  <!-- Accordion Services Panel End -->
+
+
+    <h3 class="jquery-accordion-panel-tab">Poems</h3>  <!-- Accordion Poems Panel -->
+    <div id="poems-panel">
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 jquery-accordion-panel-tab-title">
+                <span>
+                    <span><strong><i>Kathleen's Poems</i></strong></span>
+                </span>
+            </div>
+        </div>
+
+        <!---------------------------------------> 
+        <div class="row8">
+        <!---------------------------------------> 
+        <div class="col-4 sidebar">
+            <div class="sidebar-title">
+                <div>            
+                    <h2><strong><i>"I Am Free . . ."</i></strong></h2>
+                </div>
+            </div>
+
+            <section>
+                <p>
+                    Don't grieve for me, for now I'm free, I'm following the path God laid for me.
+                     &nbsp;I took His hand when I heard His call,
+                      I turned my back and left it all.
+                </p>
+
+                <p>
+                    I could not stay another day, To laugh, to love, to work, to play. 
+                    &nbsp;Tasks left undone must stay that way. 
+                    &nbsp;I've found that peace at the close of the day.
+                </p>
+
+                <p>
+                    If my parting has left a void, Then fill it with remembered joy. 
+                    &nbsp;A friendship shared, a laugh, a kiss, Ah yes, these things I too will miss.
+                </p>
+
+                <p>
+                    Be not burdened with times of sorry, I wish you the sunshine of tomorrow. &nbsp;My life's been full, I savoured much, 
+                    Good friends, good times, a loved one's touch,
+                </p>
+
+                <p>
+                    Perhaps my time seemed all to brief, Don't lengthen it now with undue grief. 
+                    &nbsp;Lift up your heart and share with me, God wanted me now, He set me free.
+                </p>
+
+                <p>
+                    <strong>Author: &nbsp;</strong><strong><mark><i>Shannon Lee Moseley</i></mark></strong>
+                </p>
+
+                <p>
+                    <small><strong>Contributed By: &nbsp;</strong><span class="georgia-state-color">Anonymous</span></small>
+                </p>
+            </section>
+        </div>
+        
+        <div class="col-4 sidebar">
+            <div class="sidebar-title">
+                <div>            
+                    <h2><strong><i>"Footprints In The Sand . . ."</i></strong></h2>
+                </div>
+            </div>
+        
+            <section>
+                <p>
+                    <strong><i>One</i></strong> night I had a dream. &nbsp;As I was walking along the beach with my <strong><i>Lord</i></strong>. 
+                    &nbsp;Accross the dark sky flashed scenes from my life. 
+                    &nbsp;For each scene, I notice <strong><i>two</i></strong> sets of <strong><i>footprints</i></strong> in the sand.
+                    &nbsp;<strong><i>One belonging to me and the other to my Lord</i></strong>.
+                </p>
+
+                <p>
+                    <strong><i>After</i></strong> the last scene of my life flashed before me, I looked back at the 
+                    footprints in the sand. &nbsp;I noticed that at many times along the path of my
+                     life, especially at the very lowest and saddest times, <strong><i>there was only one set of footprints</i></strong>.
+                </p>
+
+                <p>
+                    <strong><i>This</i></strong> really troubled me, so I asked the <strong><i>Lord</i></strong> about it. &nbsp;"<strong><i>Lord</i></strong> you said once I decided
+                     to follow you, <strong><i>You'd</i></strong> walk with me all the way. &nbsp;But I noticed that during the saddest and 
+                     most troublesome times of my life, there was only one set of footprints. 
+                     &nbsp;I don't understand why, when I needed <strong><i>You</i></strong> the most, <strong><i>You</i></strong> would leave me."
+                </p>
+
+                <p>
+                    <strong><i>He</i></strong> whispered, "My precious child, <strong><i>I love you and will never leave you</i></strong>. 
+                    &nbsp;Never, ever during your trials and testings. &nbsp; When you saw only one set of footprints,
+                     it was then that <strong><i>I carried you</i></strong>".
+                </p>
+
+                <p>
+                    <strong>Authors: &nbsp</strong> &nbsp;<strong><mark><i>Burrell Webb, Carolyn Joyce Carty, Margaret Fishback Powers</i></mark></strong>
+                </p>
+
+                <p>
+                    <small><strong>Contributed By: &nbsp;</strong><span class="georgia-state-color">Peggy Lyons</span></small>
+                </p>
+            </section>
+        </div>
+    
+        <div class="col-4 sidebar">
+            <div class="sidebar-title">
+                <div>            
+                    <h2><strong><i>"Live Life Creatively . . ."</i></strong></h2>
+                </div>
+            </div>
+
+            <section>
+                <p>
+                    <strong><i>Be</i></strong> brave enough to live <strong><i>creatively</i></strong>! &nbsp;The creative is the place where <strong><i>no one</i></strong> else has ever been.
+                     &nbsp;<strong><i>You</i></strong> have to leave the city of your comfort and go into the <strong><i>wilderness</i></strong> of your your intuition.
+                </p>
+
+                <p>
+                    <strong><i>You</i></strong> cannot get there by <strong><i>bus</i></strong>, only by hard work, risking and by not quite knowing what you are doing.
+                     &nbsp;What you will discover will be wonderful: <strong><i>Yourself</i></strong>.
+                </p>
+
+                <p>
+                    <strong>Author: &nbsp;</strong><strong><mark><i>Alan Alda</i></mark></strong>
+                </p>
+
+                <p>
+                    <small><strong>Contributed By: &nbsp;</strong><span class="georgia-state-color">Gregory Scott Sr.</span></small>
+                </p>
+                </section>
+        </div>
+        
+
+        </div>
+    </div>  <!-- Accordion Poems Panel End -->
+
+    <h3 class="jquery-accordion-panel-tab">Tributes</h3>  <!-- Accordion Tributes Panel -->
+    <div id="tributes-panel">
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 jquery-accordion-panel-tab-title">
+                <span>
+                    <span><strong><i>Kathleen's Tributes</i></strong></span>
+                </span>
+            </div>
+        </div>
+
+        <!---------------------------------------> 
+        <div class="row8">
+        <!---------------------------------------> 
+            <div class="col-4 sidebar">
+                    
+                <div class="sidebar-title">
+                    <div>            
+                        <h2><strong><i>Shalena</i></strong></h2>
+                    </div>
+                </div>
+        
+                <section>
+                    <p>
+                        <strong><i>What</i></strong> I remember the most about my mom is . .  .
+                    </p>  
+                    
+                    <p><strong><mark><i>Daughter</i></mark></strong></p>
+                </section>
+            </div>
+
+            <div class="col-4 sidebar">
+                    
+                <div class="sidebar-title">
+                    <div>            
+                        <h2><strong><i>Angel</i></strong></h2>
+                    </div>
+                </div>
+        
+                <section>
+                     <p>
+                        <strong><i>When</i></strong> I was a little girl my mom use to . . .
+                    </p>  
+        
+                    <p><strong><mark><i>Daughter</i></mark></strong></p>
+                </section>
+            </div>
+
+            <div class="col-4 sidebar">
+                    
+                <div class="sidebar-title">
+                    <div>            
+                        <h2><strong><i>Gregory</i></strong></h2>
+                    </div>
+                </div>
+        
+                <section>
+                    <img class="tribute-photo" src="img/greg-photo.jpg" alt="Greg Tribute Photo">
+                    <p>
+                        <strong><i>My</i></strong> sister Kathleen never really called me by my name.  &nbsp;She mostly just called me "<strong><i>brother</i></strong>".              
+                        &nbsp;She would simply say, hey brother "<strong><i>this</i></strong>" or hey brother "<strong><i>that</i></strong>". &nbsp;She was a real dancer, I mean she had 
+
+
+                        moves, she could flat out do some steppin.  &nbsp;I believe she was good enough to compete and win on "Dancing With The Stars".  &nbsp;It was amazing to watch her and her dance partner effortlessly glide accross the floor. 
+                    </p>  
+        
+                    <p>
+                        <strong>I</strong> really couldn't dance a lick, but she would always pull me onto the dance floor with her. &nbsp;She would say, "<strong><i>brother</i></strong>", I'm going to spin around, and without looking, fall backwards, and you better be there to catch me!
+                    </p>
+                    <p>
+                        <strong>I</strong> never once let her hit the floor. &nbsp;She was sooo carefree and I loved her sooo much!  &nbsp;She was more than a sister to my wife <strong><i>Christine</i></strong> and me. &nbsp;She was a <strong><i>friend</i></strong> who was always available when we needed her.  
+                    </p>
+                    <p>
+                        Like my <strong><i>mother</i></strong> and <strong><i>brothers</i></strong> who passed away before her, she too, will live in my heart.
+                    </p>
+                    
+                    <p><strong><mark><i>Brother</i></mark></strong></p>
+                </section>
+            </div>
+
+        </div>
+    </div>  <!-- Accordion Tributes Panel End -->
+
+    <h3 class="jquery-accordion-panel-tab">Acknowledgments</h3>  <!-- Accordion Acknowledgments Panel -->
+    <div id="acknowledgments-panel">
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 jquery-accordion-panel-tab-title">
+                <div>
+                    <span><strong><i>Kathleen's Acknowledgments</i></strong></span>
+                </div>
+            </div>
+
+            <p>
+                The family of <strong><i>Kathleen Scott</i></strong> would like to thank you for your heartfelt condolences
+                    and sympathy in our time of mourning. &nbsp;The passing of a loved one is never easy but your
+                    presence and unconditional love has made this time so much more bearable and for that, we thank you.
+            </p>
+        </div>
+            
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 tributes">
+                <div>
+                    <span><strong><i>Pallbearers</i></strong></span>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------->
+        <div class="row1">
+        <!---------------------------------------->
+            <div class="col-12">
+                <ol>
+                    <li>Chrishaun Scott</li>
+                    <li>Courtney Holmes</li>
+                    <li>Antonio Perez</li>
+                    <li>Steven Lavell Richardson</li>
+                    <li>Jimmy Thomas</li>
+                    <li>James Ramey</li>
+                </ol>
+            </div>
+        </div>
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 tributes">
+                <div>
+                    <span><strong><i>Professional Serices</i></strong></span>
+                </div>
+            </div>
+
+            <p>
+                <strong><i>Leak and Sons Funeral Homes</i></strong><br>
+                7838 South Cottage Grove<br>
+                Chicago, Illinois 60619
+            </p>
+        </div>
+
+            <!---------------------------------------> 
+            <div class="row5 col-12">
+            <!---------------------------------------> 
+                    <div class="col-4 tributes">
+                        <div>
+                            <span><strong><i>Burial</i></strong></span>
+                        </div>
+                    </div>
+        
+                    <p>
+                        <strong><i>Mount Hope Cemetery</i></strong> &nbsp;(Section 11)<br>
+                        11500 S. Fairfield<br>
+                            Chicago, Illinois 60655
+                    </p>
+            </div>
+    </div>  <!-- Accordion Acknowledgments Panel End -->
+
+    <h3 class="jquery-accordion-panel-tab">Photos</h3>  <!-- Accordion Photos Panel -->
+    <div id="photos-panel">
+        <!---------------------------------------> 
+        <div class="row5 col-12">
+        <!---------------------------------------> 
+            <div class="col-4 jquery-accordion-panel-tab-title">
+                <div>
+                    <span><strong><i>Kathleen's Photos</i></strong></span>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------> 
+        <div class="row9 col-12">
+        <!--------------------------------------->
+            <div class="col-12" id="image_swap_area"> 
+                <section>
+                    <p><img src="img/photo/dsc_0005.jpg" alt="" id="image"></p>
+                    <div class="sidebar-title">
+                        <h2 id="caption">TSA Honor Guards . . .</h2>
+                    </div>
+                    
+                    <ul id="image_list">
+                        <li><a href="img/photo/dsc_0005.jpg" title="TSA Honor Guards . . .">
+                            <img src="img/thumbnail/dsc_0005.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0031.jpg" title="Stevie organizes pallbearers . . .">
+                            <img src="img/thumbnail/dsc_0031.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0036.jpg" title="Pallbearers perform their duty . . .">
+                            <img src="img/thumbnail/dsc_0036.jpg" alt=""></a></li>    
+                        <li><a href="img/photo/dsc_0037.jpg" title="Pallbearers Perform Their Duty . . .">
+                            <img src="img/thumbnail/dsc_0037.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0038.jpg" title="Pallbearers Perform Their Duty . . .">
+                            <img src="img/thumbnail/dsc_0038.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0039.jpg" title="Pallbearers Perform Their Duty . . .">
+                            <img src="img/thumbnail/dsc_0039.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0043.jpg" title="Pastor Anthony Conducts Service . . .">
+                            <img src="img/thumbnail/dsc_0043.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0052.jpg" title="Chrishaun Says Final Goodbye . . .">
+                            <img src="img/thumbnail/dsc_0052.jpg" alt=""></a></li>
+                        <li><a href="img/photo/dsc_0073.jpg" title="Cementery Workers Lower Casket . . .">
+                            <img src="img/thumbnail/dsc_0073.jpg" alt=""></a></li>                           
+                    </ul>
+                </section>
+               
+            </div>
+ 
+        </div>
+
+    </div>  <!-- Accordion Photos Panel End -->
+    
+<div id="obit-cover-page"> <!-- accordion cover page --> 
+    <!---------------------------------------->
+    <div class="row1">
+    <!---------------------------------------->
+        <div class="col-12">
+            <img class="mother" src="img/obit-cover-page.jpg" alt="Kathleen Photo-1">
+        </div>
+    </div>   
+</div> <!-- End accordion cover page -->
+
+
+</div> <!-- End of Accordion-->
+
+<footer class="col-12 copyright">    
+    <!-------------------------> 
+    <div class="row11" >
+    <!------------------------->
+        <div><p id="contact-name"><strong><mark>Life Story Creations</mark></strong></p></div>          
+        <div><p id="contact-email"><strong><mark>gregscott618904@gmail.com</mark></strong></p></div>
+        <div><p id="copyright-1"></p></div>
+        <div><p id="copyright-2"><strong><mark>All Rights Reserved</mark></strong></p></div>
+    </div>
+</footer>
+
+</div> <!-- end container page -->
+
+<script src="js/main.js"></script>
+<script src="js/image_swap.js"></script>
+<script src="js/window-statistics.js"></script>
+
+</body>
+</html>

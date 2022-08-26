@@ -1,0 +1,73 @@
+/*------------------------------*/
+/*- Red-On-White-Color-Scheme  -*/
+/*------------------------------*/
+  body {
+    background-color:   #aa0000;
+  } 
+
+  h1,
+  h2,
+  h3
+   {
+      background-color: #aa0000;
+      color:         #ffffff;
+      margin-top:    5px;
+      margin-bottom: 5px;
+      margin-left:   5px;
+      margin-right:  5px;
+      padding:       5px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.jquery-accordion-panel-tab {
+    border: solid #aa0000 1.25px;
+    background-color:   #454545;
+    color:        #ffffff;
+}
+
+.jquery-accordion-panel-tab:hover {
+    background-color: #aa0000;
+}
+
+.jquery-accordion-panel-tab-title {
+    
+    border: solid #aa0000 1.25px;
+    color: #454545;
+}
+
+.text-no-background {
+    font-weight:  bold;  
+    color:        #000000;
+    text-align:   center;
+}
+
+  .text-on-background-1 {
+      background-color:   #aa0000;
+      font-weight:  bold;  
+      color:        #ffffff;
+      text-align:   center;
+  }
+  .text-on-background-2 {
+      font-size:     .75em;
+      background-color:   #454545;
+      color:        #ffffff;
+      text-align:   left;
+  }
+  .text-on-background-3 {
+      background-color:   #454545;
+      color:        #ffffff;
+      text-align:   left;
+  }
+  .text-on-background-4 {
+      background-color:   #aa0000;
+      color:        #ffffff;
+      text-align:   center;
+  }
+  .big-letters {
+      font-size:    1.5em;
+      background-color: #aa0000;
+      color:        #ffffff;      
+  }
+/*------------------------------*/
+/*- Red-On-White-Color-Scheme  -*/
+/*------------------------------*/
