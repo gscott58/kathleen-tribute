@@ -10,7 +10,7 @@ $(document).ready(function() {
 		// swap image
 		var imageURL = $(this).attr("href");
 		$("#image").attr("src", imageURL);
-		
+
 		//swap caption
 		var caption = $(this).attr("title");
 		$("#caption").text(caption);
