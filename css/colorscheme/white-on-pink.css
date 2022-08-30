@@ -1,15 +1,15 @@
-/*--------------------------------*/
-/*- White-On-Purple-Color-Scheme -*/
-/*--------------------------------*/
-body {
-    background-color:   #ff1493;
+/*------------------------------*/
+/*- Red-On-White-Color-Scheme  -*/
+/*------------------------------*/
+  body {
+    background-color:   #aa1493;
   } 
 
   h1,
   h2,
   h3
    {
-      background-color: #aa1493;
+      background-color: #ff1493;
       color:         #ffffff;
       margin-top:    5px;
       margin-bottom: 5px;
@@ -20,18 +20,18 @@ body {
   }
 
 .jquery-accordion-panel-tab {
-    border: solid #aa1493 1.25px;
+    border: solid #ff1493 1.25px;
     background-color:   #454545;
     color:        #ffffff;
 }
 
 .jquery-accordion-panel-tab:hover {
-    background-color: #aa1493;
+    background-color: #ff1493;
 }
 
 .jquery-accordion-panel-tab-title {
     
-    border: solid #aa1493 1.25px;
+    border: solid #ff1493 1.25px;
     color: #454545;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
   .text-on-background-1 {
-      background-color:   #aa1493;
+      background-color:   #ff1493;
       font-weight:  bold;  
       color:        #ffffff;
       text-align:   center;
@@ -59,13 +59,13 @@ body {
       text-align:   left;
   }
   .text-on-background-4 {
-      background-color:   #aa1493;
+      background-color:   #ff1493;
       color:        #ffffff;
       text-align:   center;
   }
   .big-letters {
       font-size:    1.5em;
-      background-color: #aa1493;
+      background-color: #ff1493;
       color:        #ffffff;      
   }
 /*------------------------------*/

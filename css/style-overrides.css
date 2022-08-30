@@ -187,9 +187,22 @@ p,pre {
 /*------------------------------------*/
 /*- Toggle Document Available Colors -*/ 
 /*------------------------------------*/
-.white-on-purple   {
+
+.white-on-blue {
     float: right;
-    background-color:   #aa00aa;  
+    background-color:   #0000aa;
+    color:              #F5F5F5;
+    text-align:         center;
+    margin: 5px;
+    text-align: left;
+    cursor: pointer;
+    list-style-type: none;
+    border: 1px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.white-on-pink  {
+    float: right;
+    background-color:   #ff1493; 
     color:              #ffffff;
     text-align:         center;
     margin: 5px;
@@ -199,22 +212,10 @@ p,pre {
     border: 1px solid black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.black-on-pink  {
+.white-on-purple   {
     float: right;
-    background-color:   #ff1493; 
-    color:              #000000;
-    text-align:         center;
-    margin: 5px;
-    text-align: left;
-    cursor: pointer;
-    list-style-type: none;
-    border: 1px solid black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.white-on-blue {
-    float: right;
-    background-color:   #0000aa;
-    color:              #F5F5F5;
+    background-color:   #aa00aa;  
+    color:              #ffffff;
     text-align:         center;
     margin: 5px;
     text-align: left;
