@@ -11,7 +11,7 @@
             collapsible: true
         });
     
-    /*  $("#sticker").sticky({ topSpacing: 0, bottomSpacing: 65, center:true, className:"is-sticky" }); */   
+    /*  $("#sticker").sticky({ topSpacing: 0, bottomSpacing: 65, center:true, className:"is-sticky" });*/   
     /*  $("#color-schemes").delay(4000).fadeOut(2000).fadeIn(2000);  */  
     
         var familyMemberDob = new Date("12/13/1960");
