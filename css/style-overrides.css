@@ -291,6 +291,21 @@ figcaption {
     margin-bottom: 0px;
     float: left;
 }
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .jquery-accordion-panel-tab {
+        width: 100%;
+        margin-left:  0;
+        margin-right: 0;
+        margin-top:   0px;
+        margin-bottom: 2px;
+    }
+
+    .jquery-accordion-active-tab-panel {
+        margin-bottom:  10px;
+    }
+  }
 /*-------------------------------------------------------*/
 /*- <html>/<head><style>Overrides</style></head></html> -*/
 /*-------------------------------------------------------*/
