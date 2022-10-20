@@ -26,7 +26,7 @@
 }
 
 .jquery-accordion-panel-tab:hover {
-    background-color: #aa0000;
+  /*  background-color: #aa0000; */
 }
 
 .jquery-accordion-panel-tab-title {

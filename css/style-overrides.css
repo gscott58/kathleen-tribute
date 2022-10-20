@@ -32,11 +32,6 @@
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-  
-.jquery-accordion-main-title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
-}
 
 #page,
 .jquery-accordion-name,
@@ -302,9 +297,7 @@ figcaption {
         margin-bottom: 2px;
     }
 
-    .jquery-accordion-active-tab-panel {
-        margin-bottom:  10px;
-    }
+
   }
 /*-------------------------------------------------------*/
 /*- <html>/<head><style>Overrides</style></head></html> -*/
