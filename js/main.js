@@ -24,20 +24,17 @@
         document.getElementById("Kathleen-death-age").innerHTML= familyMemberDeathAge;
         var familyMemberTodayAge = getAge(familyMemberDob, todaysDate);
 
-        $(".family-name").toggle(1000);      
-        $(".sidebar").toggle(2000);
-        
-        $(".main-content").toggle( "explode", {pieces:16}, 0000 );
+        $(".family-name").toggle(0000);      
+        $(".main-content").toggle(0000);
         $(".main-content-title").toggle(0000);
-        $("#what-should-i-include").toggle(3500);
-        $("#what-should-i-include-main-content").toggle(3500);
-        
-        $(".gone-up-yonder").toggle(4000);
-        $("footer").toggle(4000);
-        $("#copyright-1").toggle(4000);
-        $("#copyright-2").toggle(4500);
-        $("#contact-email").toggle(4500);
-        $("#email-address").toggle(4500);
+        $(".sidebar").toggle(0000);
+        $("footer").toggle(0000);
+        $("#copyright-1").toggle(0000);
+        $("#copyright-2").toggle(0000);
+        $("#contact-email").toggle(0000);
+
+        $("#accordion").toggle( "explode", {pieces:72}, 2000 );
+        $("#obit-cover-page").toggle( "explode", {pieces:72}, 2000 );
                            
         $("footer").hover(function() {
             $("#contact-name").effect("shake");
@@ -84,22 +81,7 @@
             }                    
          });
          
-        $(".readmorebtn").click(function() {       
-            var $readmore       = $(this).closest("[class^=row]").find("#what-should-i-include-readmore");
-            
-            if ($readmore.is(":hidden")) {
-               $readmore.show(1500);
-               $( "#readmorebtn" ).html       ( "Hide List" );     
-            } else {
-               $readmore.hide(1500);
-               $( "#readmorebtn" ).html       ( "Show List" );     
-            }            
-         });
-         
-        $("#what-should-i-include-main-content").mouseenter(function() {
-            $("#readmorebtn").effect("shake");
-            });     
-                
+
           $("#color-schemes ul li").on("click", function(){
             var path = $(this).data("path");
             $("#color-switcher").attr("href", path);
