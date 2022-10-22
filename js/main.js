@@ -33,8 +33,8 @@
         $("#copyright-2").toggle(0000);
         $("#contact-email").toggle(0000);
 
-        $("#accordion").toggle( "fade", 3000 );
-        $("#obit-cover-page").toggle( "explode", {pieces:36}, 3000 );
+        $("#accordion").toggle( "fade", 3500 );
+        $("#obit-cover-page").toggle( "explode", {pieces:288}, 3500 );
                            
         $("footer").hover(function() {
             $("#contact-name").effect("shake");
