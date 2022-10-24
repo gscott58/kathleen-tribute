@@ -1,6 +1,6 @@
     var d = new Date();
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    document.getElementById("copyright-1").innerHTML = "<strong><mark>&copy; Copyright " + d.getFullYear() + "</mark></strong>.";
+    document.getElementById("copyright-1").innerHTML = "<strong><mark>&copy; Copyright " + d.getFullYear() + "</mark></strong>";
 
     $(document).ready(function() {
 
@@ -28,18 +28,19 @@
         $(".main-content").toggle(0000);
         $(".main-content-title").toggle(0000);
         $(".sidebar").toggle(0000);
-        $("footer").toggle(0000);
-        $("#copyright-1").toggle(0000);
-        $("#copyright-2").toggle(0000);
-        $("#contact-email").toggle(0000);
-        $("#accordion").toggle( "fade", 2500 );
+        $("#accordion").toggle( "fade", 2000 );
         $("#obit-cover-page").toggle( "fade", 3000 );
+        $("#contact-name").toggle(1500);
+        $("#contact-email").toggle(2000);
+        $("#copyright-1").toggle(2500);
+        $("#copyright-2").toggle(3000);
                            
-        $("footer").hover(function() {
+        $("footer").hover(function() {         
             $("#contact-name").effect("shake");
-            }, function() {
             $("#contact-email").effect("shake");
+            }, function() {
             $("#copyright-1").effect("shake");
+            $("#copyright-2").effect("shake");
         });
 
         $("td").hover(function() {
